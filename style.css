@@ -32,3 +32,19 @@ color: rgb(147, 104, 187);
     background-color: rgb(196, 182, 209);
     border-radius: 20px;
 }
+p{
+    display: inline;
+}
+.pricelist{
+    color: rgb(20, 1, 37);
+    font-style: oblique;
+    font-size: x-large;
+    font-weight: bold;
+}
+h4{
+    color: blueviolet;
+}
+.images{
+    border-radius: 20px;
+    background-color: rgb(210, 201, 218);
+}
