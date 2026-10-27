@@ -1,0 +1,34 @@
+header{
+    text-align: center;
+    color: rgb(147, 104, 187);
+    font-size: medium;
+    font-style: oblique;
+}
+body{
+    background-color: rgb(247, 219, 219);
+   
+}
+h3{
+color: rgb(147, 104, 187);
+}
+.sale{
+    color: blue;
+    font-style: oblique;
+}
+.call{
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+.location{
+    background-color: red;
+    border-radius: 20px;
+}
+.register{
+    background-color: rgb(196, 182, 209);
+    border-radius: 20px;
+    
+}
+.login{
+    background-color: rgb(196, 182, 209);
+    border-radius: 20px;
+}
