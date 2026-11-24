@@ -4,20 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="style.css">
 </head>
 <h1>ავტორიზაცია
 
 </h1>
-<body>
 
-    <p>ელექტრონული ფოსტა (Email) ან ტელეფონი (phone)</p>
-    <input type="button width 1000px" value="   ">
-     <p>პაროლი (Password)</p>
-    <input type="button width 1000px" value="   "> <br>
-    <a href="http://google">google</a> <br>
-    <a href="http://facebook">facebook</a> <br>
-    <a href="http://Apple ID">Apple Id</a>
+<body>
+<form action="/register" method="post">
+  <label for="name">სახელი</label >
+  <input id="name" name="username" type="text"placeholder= "username" required>
+    
+  <label for="email">ელ-ფოსტა</label>
+  <input type="email"placeholder= "email"  required> 
+
+
+ <label for="number">საკონტაქტო</label>
+ <input type="number" placeholder= "number" required>
+
+   <label for="data">დაბადების თარიღი</label>
+   <input type="date" placeholder= "date of birth" required>
+     
+   <label for="password"></label>
+    <input type="password"  placeholder= "password" required minlength="8" maxlength="10">
+
+
+    <input type="radio" name="gender"> male
+    <input type="radio" name="gender">female
+   </div>
+
+<label for="city">ქალაქი</label>
+  <select id="city" name="city">
+    <option value="tbs">თბილისი</option>
+    <option value="bat">ბათუმი</option>
+    <option value="kut">ქუთაისი</option>
+
+  </select>
+
+ <button type="submit">გაგზავნა</button>
+</form>
+  
+
     
 </body>
 </html>
